@@ -1,0 +1,19 @@
+system:
+  port: 8081
+  mode: debug
+
+zap:
+  fileName: ./log/stdout.log
+  maxSize: 10
+  maxBackups: 30
+  maxAge: 7
+  compress: true
+  localTime: true
+
+mysql:
+  addr: 127.0.0.1
+  port: 3306
+  user: root
+  passwd: yother233
+  db: gin_tmp
+  
